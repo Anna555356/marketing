@@ -9,3 +9,127 @@
     margin: 0 auto;
     padding: 0 10px;
 }
+
+.menu_list-link{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration: none;
+    letter-spacing: 0.6px;
+    color: #373A39;
+    padding-bottom: 3px;
+    transition: all 0.3s;
+}
+
+.menu_list-link:hover{
+    border-bottom: 1px solid #FCBB08;
+}
+
+.header_top-inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_list{
+    display: flex;
+}
+
+.menu_list li+li{
+    margin-left: 50px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.header_content{
+    background-image: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    /* min-height: 100vh; */
+    background-size: cover;
+    background-position: center;
+}
+
+.header_content-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: calc(100vh - 97px);
+}
+
+.header_title{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 72px;
+    line-height: 82px;
+    color: #FFFFFF;
+    font-weight: 500;
+    margin-top: auto;
+
+    margin-bottom: 19px;
+   padding-top: 130px;
+}
+
+.header_subtitle{
+   font-family: 'Montserrat',sans-serif; 
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 20px;
+   letter-spacing: 2.74px;
+   color: #FCBB08;
+   margin-bottom: auto;
+}
+
+.header_icon{
+    margin-bottom: 65px;
+}
+
+.title{
+    font-size: 48px;
+    line-height: 75px;
+    font-weight: bold;
+    font-family: 'Montserrat' , sans-serif;
+    letter-spacing: -1.65px;
+    color: #242121;
+    position: relative;
+    align-self: flex-start;
+}
+
+.title::after{
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 4px;
+    background-color: #FCBB08;
+    left: 0;
+    bottom: 0;
+}
+
+.abuot{
+    background-color: #F6F8FA;
+    padding: 152px 0  149px;
+}
+
+.about_inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_title{
+    
+}
+
+.about_text{
+    max-width: 770px;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Montserrat' , sans-serif;
+}
+
+.about_text p{
+    margin-bottom: 16px;
+}
